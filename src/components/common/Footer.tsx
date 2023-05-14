@@ -110,21 +110,23 @@ export default function Footer() {
             </Link>
             {/* <a className="mt-4">Support</a> */}
           </Grid>
-          <Grid item xs={6} md={3} lg={2} className="mt-[50px] md:mt-0">
-            <h3>About</h3>
-            <Link href="https://wakapadi.io" target="_blank" className="mt-4">
-              About Guide
-            </Link>
-            <Link href="https://wakapadi.io" target="_blank" className="mt-4">
-              Brand Guidelines
-            </Link>
-            <Link href="https://wakapadi.io" target="_blank" className="mt-4">
-              Security
-            </Link>
+          <Grid item xs={6} md={3} lg={2}>
+            <div className="mt-[50px] md:mt-0">
+              <h3>About</h3>
+              <Link href="https://wakapadi.io" target="_blank" className="mt-4">
+                About Guide
+              </Link>
+              <Link href="https://wakapadi.io" target="_blank" className="mt-4">
+                Brand Guidelines
+              </Link>
+              <Link href="https://wakapadi.io" target="_blank" className="mt-4">
+                Security
+              </Link>
 
-            <Link href="https://wakapadi.io" target="_blank" className="mt-4">
-              Terms & Conditions
-            </Link>
+              <Link href="https://wakapadi.io" target="_blank" className="mt-4">
+                Terms & Conditions
+              </Link>
+            </div>
           </Grid>
         </Grid>
       </section>
