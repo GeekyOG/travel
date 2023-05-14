@@ -110,7 +110,8 @@ export default function Footer() {
             </Link>
             {/* <a className="mt-4">Support</a> */}
           </Grid>
-          <Grid item xs={6} md={3} lg={2} className="mt-10 md:mt-0">
+          <Grid item xs={6} md={3} lg={2} className="mt-[50px] md:mt-0">
+            <h3>About</h3>
             <Link href="https://wakapadi.io" target="_blank" className="mt-4">
               About Guide
             </Link>
