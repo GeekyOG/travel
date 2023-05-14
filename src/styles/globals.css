@@ -1,0 +1,117 @@
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+
+input{
+  border: none;
+  outline: none;
+}
+
+
+
+p span {
+  margin-left: 10px;
+}
+
+.scroll{
+  scrollbar-width: none;
+
+}
+::-webkit-scrollbar{
+  width: 0; 
+  background: transparent; 
+}
+
+
+@media (max-width: 765px) {
+  .nav{
+    display: none;
+  }
+}
+
+
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+.cookie{
+  font-size: 16px !important;
+}
+.address, .intro{
+  color: #757575;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+
+.support{
+  display: flex;
+  justify-content: space-between;
+  
+}
+#output{
+  overflow-x: hidden;
+}
+
+#output p{
+  font-size: 16px;
+}
+
+footer a{
+  display: block;
+ }
+
+ @media (max-width: 1200px) {
+  #output p{
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: 1px;;
+
+   }
+   footer a{
+     font-size: 9px;
+   
+    }
+    footer h3{
+    font-size: 8px;
+    }
+ 
+}
+
+ @media (max-width: 768px) {
+#output p{
+ font-size: 20px;
+}
+footer p{
+  font-size: 14px;
+}
+footer a{
+  font-size: 16px;
+
+ }
+ footer h3{
+ font-size: 16px;
+ font-weight: 900;
+ }
+
+}
+
+
