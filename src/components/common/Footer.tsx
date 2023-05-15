@@ -90,24 +90,29 @@ export default function Footer() {
               </p>
             </div>
           </Grid>
-          <Grid item xs={6} md={2} className="mt-[50px] md:mt-0">
-            <h3>Our Users</h3>
-            <Link className="mt-4" href="https://wakapadi.io" target="_blank">
-              {" "}
-              Traveller
-            </Link>
-            <Link className="mt-4" href="https://wakapadi.io" target="_blank">
-              Become a Guide
-            </Link>
+          <Grid item xs={6} md={2}>
+            <div className="mt-[50px] md:mt-0">
+              <h3>Our Users</h3>
+              <Link className="mt-4" href="https://wakapadi.io" target="_blank">
+                {" "}
+                Traveller
+              </Link>
+              <Link className="mt-4" href="https://wakapadi.io" target="_blank">
+                Become a Guide
+              </Link>
+            </div>
           </Grid>
-          <Grid item xs={6} md={2} className="mt-[50px] md:mt-0">
-            <h3>Help and Support</h3>
-            <Link className="mt-4" href="https://wakapadi.io" target="_blank">
-              Help Centre
-            </Link>
-            <Link href="https://wakapadi.io" target="_blank" className="mt-4">
-              Contacts
-            </Link>
+          <Grid item xs={6} md={2}>
+            <div className="mt-[50px] md:mt-0">
+              <h3>Help and Support</h3>
+              <Link className="mt-4" href="https://wakapadi.io" target="_blank">
+                Help Centre
+              </Link>
+              <Link href="https://wakapadi.io" target="_blank" className="mt-4">
+                Contacts
+              </Link>
+            </div>
+
             {/* <a className="mt-4">Support</a> */}
           </Grid>
           <Grid item xs={6} md={3} lg={2}>
