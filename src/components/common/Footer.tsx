@@ -90,7 +90,7 @@ export default function Footer() {
               </p>
             </div>
           </Grid>
-          <Grid item xs={6} md={2} className="mt-[10px] md:mt-0">
+          <Grid item xs={6} md={2} className="mt-[50px] md:mt-0">
             <h3>Our Users</h3>
             <Link className="mt-4" href="https://wakapadi.io" target="_blank">
               {" "}
@@ -100,7 +100,7 @@ export default function Footer() {
               Become a Guide
             </Link>
           </Grid>
-          <Grid item xs={6} md={2} className="mt-[10px] md:mt-0">
+          <Grid item xs={6} md={2} className="mt-[50px] md:mt-0">
             <h3>Help and Support</h3>
             <Link className="mt-4" href="https://wakapadi.io" target="_blank">
               Help Centre

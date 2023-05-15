@@ -30,6 +30,7 @@ text-shadow: 0 3px 6px #00000087 ;
 line-height:25px;
 @media (max-width: 700px) {
  margin-top:20px;
+ font-weight: 400;
 }
 `
 
@@ -42,6 +43,12 @@ color: #FFFFFF;
 font-weight: 600;
 margin-top: 25px;
 border: none;
+
+@media (max-width: 765px){
+  font-size:18px;
+  padding: 15px 50px;
+  border-radius:25px;
+}
 `
 export const Left = styled.div`
 
